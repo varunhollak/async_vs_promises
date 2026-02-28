@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Async vs Promises</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Data Fetching Comparison</h1>
+
+    <div class="buttons">
+        <button id="asyncBtn">With Async/Await</button>
+        <button id="promiseBtn">With Promises</button>
+    </div>
+
+    <!-- Loader -->
+    <div id="loader" class="hidden">
+        <div class="spinner"></div>
+        <p>Loading user data...</p>
+    </div>
+
+    <!-- User Card -->
+    <div id="userCard" class="card hidden">
+        <h2 id="name"></h2>
+        <p id="email"></p>
+        <p id="phone"></p>
+        <p id="website"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

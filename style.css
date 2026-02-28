@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    color: white;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#asyncBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#promiseBtn {
+    background-color: #007bff;
+    color: white;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.hidden {
+    display: none;
+}
+
+
+.spinner {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #333;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
