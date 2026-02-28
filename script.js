@@ -12,14 +12,14 @@ const websiteField = document.getElementById("website");
 
 
 function showLoader() {
-    loader.classList.remove("hidden");   // Show loader
-    userCard.classList.add("hidden");    // Hide old user data
+    loader.classList.remove("hidden");   
+    userCard.classList.add("hidden");    
 }
 
 
 
 function hideLoader() {
-    loader.classList.add("hidden");      // Hide loader
+    loader.classList.add("hidden");      
 }
 
 
@@ -30,7 +30,7 @@ function displayUser(user) {
     phoneField.textContent = "Phone: " + user.phone;
     websiteField.textContent = "Website: " + user.website;
 
-    userCard.classList.remove("hidden"); // Show user card
+    userCard.classList.remove("hidden"); 
 }
 
 
